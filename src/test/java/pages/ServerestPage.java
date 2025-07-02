@@ -1,7 +1,5 @@
 package pages;
 
-import cucumber.api.java.sl.In;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -22,7 +20,7 @@ public class ServerestPage {
         PageFactory.initElements(driver, this);
     }
 
-    static String gerarNome5 = utils.gerarNome(5);
+    static String gerarNome8 = utils.gerarNome(8);
 
     @FindBy(xpath = "//input[@name='email']")
     public static WebElement campoEmail;
@@ -87,6 +85,27 @@ public class ServerestPage {
     @FindBy (xpath = "//*[@id='root']/div/div/h1")
     public static WebElement apresentarAMensagemListaDosProdutos9;
 
+    @FindBy (xpath = "//a[@data-testid='cadastrar']")
+    public static WebElement btnCadastarLogin;
+
+    @FindBy (xpath = "//input[@data-testid='nome']")
+    public static WebElement campoDigiteSeuNome;
+
+    @FindBy (xpath = "//input[@Type='email']")
+    public static WebElement campoDigiteSeuEmail;
+
+    @FindBy (xpath = "//input[ @name= 'password']")
+    public static WebElement campoDigiteSuaSenha;
+
+    @FindBy (xpath = "//input[@id='administrador']")
+    public static WebElement btnCadastrarComoAdministrador;
+
+    @FindBy (xpath = "//button[@type='submit']")
+    public static WebElement btnCadastrarUsuarioNovo;
+
+    @FindBy (xpath = "//h1[text()='Bem Vindo  ']")
+    public static WebElement apresentarMensagemBemDeVindo;
+
 
 
 
@@ -116,8 +135,8 @@ public class ServerestPage {
     }
 
     public static void aoPreencherOCampoEmail() {
-        campoCadastrarEmail.sendKeys(gerarNome5 + "@gmail.com");
-        System.out.println(gerarNome5);
+        campoCadastrarEmail.sendKeys(gerarNome8 + "_@gmail.com");
+        System.out.println(gerarNome8);
     }
 
     public static void preenchaOCampoSenha() {
@@ -140,7 +159,11 @@ public class ServerestPage {
         assertTrue(apresentarAMensagemListaDosProdutos9.isDisplayed());
     }
 
-    public static void clicarNoBotao(String botao) {
+    public static void apresentarMensagemBemDeVindo(){
+        assertTrue(apresentarMensagemBemDeVindo.isDisplayed());
+    }
+
+    public static void clicarNoBotao(String botao) throws InterruptedException {
         switch (botao) {
 
             case "Listar Usuarios":
@@ -163,8 +186,22 @@ public class ServerestPage {
                 clicarElemento(btnNovoCadastrar);
                 break;
 
+            case "Cadastrar Login":
+                clicarElemento(btnCadastarLogin);
+                break;
+
+            case "Cadastrar Como Administrador":
+                clicarElemento(btnCadastrarComoAdministrador);
+                break;
+
+            case"Cadastrar Usuario":
+                Thread.sleep(1000);
+                clicarElemento(btnCadastrarUsuarioNovo);
+                break;
+
             default:
                 System.out.println("botao nao mapeado");
+
 
         }
 
@@ -175,7 +212,7 @@ public class ServerestPage {
 
 
             case "Nome do Produto":
-                campoNomeDoProduto.sendKeys("Produto " + gerarNome5);
+                campoNomeDoProduto.sendKeys("Produto " + gerarNome8);
                 break;
 
             case "Preço":
@@ -190,6 +227,17 @@ public class ServerestPage {
                 campoQuantidade.sendKeys("1");
                 break;
 
+            case "Digite Seu Nome":
+                campoDigiteSeuNome.sendKeys("Ana");
+                break;
+
+            case "Digite Seu Email":
+                campoDigiteSeuEmail.sendKeys(gerarNome8 + "@gmail.com");
+                break;
+
+            case "Digite Sua Senha":
+                campoDigiteSuaSenha.sendKeys("teste123");
+                break;
 
 
             default:

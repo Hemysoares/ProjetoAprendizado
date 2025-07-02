@@ -1,9 +1,6 @@
 package steps;
 
-import io.cucumber.java.pt.E;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Então;
-import io.cucumber.java.pt.Quando;
+import io.cucumber.java.pt.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.ServerestPage;
@@ -77,7 +74,7 @@ public class ServerestSteps {
     }
 
     @Quando("clicar no botao {string}")
-    public void clicarNoBotao(String botao) {
+    public void clicarNoBotao(String botao) throws InterruptedException {
         sp.clicarNoBotao(botao);
     }
 
@@ -95,6 +92,15 @@ public class ServerestSteps {
     @Entao("apresentar a mensagem lista dos Produtos")
     public void apresentarAMensagemListaDosProdutos() {
         sp.apresentarAMensagemListaDosProdutos9();
+    }
+
+    @Entao("apresentar mensagem Bem de Vindo")
+    public void apresentarMensagemBemDeVindo() {
+        sp.apresentarMensagemBemDeVindo();
+    }
+
+    @Dado("que esteja na tela inicial do Serverest")
+    public void queEstejaNaTelaInicialDoServerest() {
     }
 }
 

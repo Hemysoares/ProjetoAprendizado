@@ -21,7 +21,7 @@ public class Hooks {
     public void fecharDriver() {
 
         if (driver != null) {
-            //driver.quit(); // Fecha o navegador
+            driver.quit(); // Fecha o navegador
         }
 
     }

@@ -1,4 +1,481 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:Features/loginServerest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:Features/cadastrarNovoUsuarios.feature");
+formatter.feature({
+  "name": "Cadastrar Novos Usuários",
+  "description": "",
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "name": "@end2End"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Contexto"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "que esteja na tela inicial do Serverest",
+  "keyword": "Dado "
+});
+formatter.match({
+  "location": "ServerestSteps.queEstejaNaTelaInicialDoServerest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Login\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Nome\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Email\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Sua Senha\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Como Administrador\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Usuario\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Cadastrar Novos Usuários",
+  "description": "",
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "name": "@end2End"
+    },
+    {
+      "name": "@cadastrarNovosUsuarios"
+    }
+  ]
+});
+formatter.step({
+  "name": "clicar no botão cadastrar",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotãoCadastrar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "ao preencher o campo nome",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.aoPreencherOCampoNome()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "ao preencher o campo Email",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.aoPreencherOCampoEmail()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencha o campo senha",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preenchaOCampoSenha()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "selecione a opção Cadastrar como Adm",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.selecioneAOpçãoCadastrarComoAdm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar em Cadastrar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarEmCadastrar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apresenta a mensagem Lista dos Usuarios",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "ServerestSteps.apresentaAMensagemListaDosUsuarios()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("classpath:Features/cadastrarProdutos.feature");
+formatter.feature({
+  "name": "Cadastrar usuário",
+  "description": "",
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "name": "@end2End"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Contexto"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "que esteja na tela inicial do Serverest",
+  "keyword": "Dado "
+});
+formatter.match({
+  "location": "ServerestSteps.queEstejaNaTelaInicialDoServerest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Login\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Nome\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Email\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Sua Senha\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Como Administrador\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Usuario\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Cadastrar Produto",
+  "description": "",
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "name": "@end2End"
+    },
+    {
+      "name": "@cadastrarProduto"
+    }
+  ]
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Produto\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator \u0027By.xpath: //a[@data-testid\u003d\u0027cadastrarProdutos\u0027]\u0027 (tried for 10 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat utils.utils.clicarElemento(utils.java:68)\r\n\tat pages.ServerestPage.clicarNoBotao(ServerestPage.java:180)\r\n\tat steps.ServerestSteps.clicarNoBotao(ServerestSteps.java:78)\r\n\tat ✽.clicar no botao \"Cadastrar Produto\"(classpath:Features/cadastrarProdutos.feature:19)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@data-testid\u003d\u0027cadastrarProdutos\u0027]\"}\n  (Session info: chrome\u003d138.0.7204.96)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.27\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [16d666860d72fc868cc6bf003e75c1d6, findElement {using\u003dxpath, value\u003d//a[@data-testid\u003d\u0027cadastrarProdutos\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.96, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\\Users\\HEMYLL~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64135}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64135/devtoo..., se:cdpVersion: 138.0.7204.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 16d666860d72fc868cc6bf003e75c1d6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat utils.utils.clicarElemento(utils.java:68)\r\n\tat pages.ServerestPage.clicarNoBotao(ServerestPage.java:180)\r\n\tat steps.ServerestSteps.clicarNoBotao(ServerestSteps.java:78)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)\r\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "preencher o campo \"Nome do Produto\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "preencher o campo \"Preço\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "preencher o campo \"Descriçao\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "preencher o campo \"Quantidade\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "realizar o anexo do arquivo \"Escolher Arquivo\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.realizarOAnexoDoArquivo(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "apresentar a mensagem lista dos Produtos",
+  "keyword": "Entao "
+});
+formatter.match({
+  "location": "ServerestSteps.apresentarAMensagemListaDosProdutos()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("classpath:Features/cadastrarUsuario.feature");
+formatter.feature({
+  "name": "Cadastrar usuário",
+  "description": "",
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "name": "@end2End"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Contexto"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "que esteja na tela inicial do Serverest",
+  "keyword": "Dado "
+});
+formatter.match({
+  "location": "ServerestSteps.queEstejaNaTelaInicialDoServerest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Cadastrar usuário para realizar login",
+  "description": "",
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "name": "@end2End"
+    },
+    {
+      "name": "@cadastrarUsuario"
+    }
+  ]
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Login\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Nome\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Seu Email\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "preencher o campo \"Digite Sua Senha\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.preencherOCampo(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Como Administrador\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botao \"Cadastrar Usuario\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotao(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apresentar mensagem Bem de Vindo",
+  "keyword": "Entao "
+});
+formatter.match({
+  "location": "ServerestSteps.apresentarMensagemBemDeVindo()"
+});
+formatter.result({
+  "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.27\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fbd47de26e5d28cca17ce18f5d5d98c9, findElement [using, value]]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.96, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\\Users\\HEMYLL~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53518/devtoo..., se:cdpVersion: 138.0.7204.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fbd47de26e5d28cca17ce18f5d5d98c9\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat pages.ServerestPage.apresentarMensagemBemDeVindo(ServerestPage.java:165)\r\n\tat steps.ServerestSteps.apresentarMensagemBemDeVindo(ServerestSteps.java:99)\r\n\tat ✽.apresentar mensagem Bem de Vindo(classpath:Features/cadastrarUsuario.feature:19)\r\nCaused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes\r\n\tat org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:436)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)\r\n\tat org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat pages.ServerestPage.apresentarMensagemBemDeVindo(ServerestPage.java:165)\r\n\tat steps.ServerestSteps.apresentarMensagemBemDeVindo(ServerestSteps.java:99)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)\r\nCaused by: java.io.IOException: HTTP/1.1 header parser received no bytes\r\n\tat java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:327)\r\n\tat java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:673)\r\n\tat java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:297)\r\n\tat java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:263)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler$SynchronizedRestartableTask.run(SequentialScheduler.java:175)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:147)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:829)\r\nCaused by: java.io.IOException: Foi forçado o cancelamento de uma conexão existente pelo host remoto\r\n\tat java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)\r\n\tat java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)\r\n\tat java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)\r\n\tat java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)\r\n\tat java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)\r\n\tat java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1162)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:825)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)\r\n\tat java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:766)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:949)\r\n\tat java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)\r\n\tat java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:962)\r\n\tat java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:917)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\r\n\tat java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:917)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("classpath:Features/loginServerest.feature");
 formatter.feature({
   "name": "Login Serverest",
   "description": "",
@@ -15,20 +492,20 @@ formatter.background({
   "keyword": "Contexto"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "que esteja na tela inicial do Serverest logado",
+  "name": "que esteja na tela inicial do Serverest",
   "keyword": "Dado "
 });
 formatter.match({
-  "location": "HomeSteps.queEstejaNaTelaInicialDoServerestLogado()"
+  "location": "ServerestSteps.queEstejaNaTelaInicialDoServerest()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "Teste Login",
+  "name": "Login com usuario cadastrado",
   "description": "",
   "keyword": "Cenario",
   "tags": [
@@ -44,11 +521,43 @@ formatter.step({
   "name": "preencher o campo Email",
   "keyword": "Quando "
 });
-formatter.match({});
+formatter.match({
+  "location": "ServerestSteps.preencher_o_campo_Email()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.step({
+  "name": "ao preencher o campo Senha",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.aoPreencherOCampoSenha()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicar no botão Entrar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "ServerestSteps.clicarNoBotãoEntrar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apresenta mensagem Bem Vindo",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "ServerestSteps.apresentaMensagemBemVindo()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });

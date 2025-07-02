@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 		features = "classpath:Features",
 		glue = {"steps"},
-		tags = {"@OK1"},
+		tags = {"@end2End"},
 		plugin = {"pretty", "html:target/cucumber-reports","io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"},
 		monochrome = true,
 		dryRun = false
